@@ -1,0 +1,133 @@
+@import "/src/assets/style/config";
+
+.header {
+  font-family: $font-family;
+  background-color: $dark-color;
+  position: relative;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+    .logo-container {
+      width: 240px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin: 7px 64px 16px 19px;
+
+      .title {
+        margin-bottom: 6px;
+        border-right: 1px solid gray;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+
+    .info-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 23px;
+
+      .name {
+        font-size: 16px;
+      }
+
+      .phone {
+        font-size: 12px;
+      }
+    }
+
+    .data-info {
+      display: flex;
+      gap: 10px;
+      font-size: 11px;
+
+      .pdp {
+        padding: 5px;
+      }
+
+      .add-info {
+        height: 20px;
+        margin: 2px;
+        cursor: pointer;
+      }
+
+      .langs {
+        display: flex;
+        list-style: none;
+        gap: 5px;
+        cursor: pointer;
+
+        .lang {
+          font-size: 11px;
+          border-right: 1px solid gray;
+          padding: 5px;
+        }
+
+        .lang:hover {
+          color: lighten($light-blue, 5%);
+        }
+      }
+    }
+  }
+
+  .info-nav {
+    background-color: $main-color ;
+    color: $dark-color;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 13px;
+
+    .elem {
+      border-left: 1px solid #ededed;
+      height: 100%;
+      padding: 10px;
+      cursor: pointer;
+      position: relative;
+
+    }
+
+    .elem-after::after {
+      bottom: 0px;
+      content: " ";
+      position: absolute;
+      left: 0;
+      right: 0px;
+      margin: 0 auto;
+      width: 0;
+      height: 0;
+      z-index: 1;
+      border-bottom: 10px solid #252525;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent
+    }
+
+    .elem:hover {
+      color: lighten($light-blue, 5%);
+    }
+  }
+}
+
+.modal {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.MuiBox-root css-1wnsr1i {
+  padding: 0;
+
+}
+
+.close {
+  border: none;
+  background-color: $main-color;
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}

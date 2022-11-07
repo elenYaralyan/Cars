@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "DuruSans";
+  src: url("../font/DuruSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/DuruSans-Regular.eot") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../font/DuruSans-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../font/DuruSans-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */
+    url("../font/DuruSans-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../font/DuruSans-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "DaimlerCAC";
+  src: url("../font/DaimlerCAC-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/DaimlerCAC-Regular.eot") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../font/DaimlerCAC-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../font/DaimlerCAC-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */
+    url("../font/DaimlerCAC-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../font/DaimlerCAC-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "DaimlerCS";
+  src: url("../font/DaimlerCS-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/DaimlerCS-Regular.eot") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../font/DaimlerCS-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */
+    url("../font/DaimlerCS-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */
+    url("../font/DaimlerCS-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../font/DaimlerCS-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+$light-blue: #00b0f3;
+$main-color: #fff;
+$dark-color: #000;
+$font-family: "DuruSans", Arial, Helvetica, sans-serif;
+$second-font: "DaimlerCAC", Arial, Helvetica, sans-serif;
+$third-font: "DaimlerCS", Arial, Helvetica, sans-serif;

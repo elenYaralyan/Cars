@@ -1,0 +1,28 @@
+@import "/src/assets/style/config";
+
+.nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #252525;
+  position: absolute;
+  top: 145px;
+  z-index: 1;
+  width: 100%;
+  padding-top: 16px;
+
+  .info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .img {
+      max-width: 218px;
+    }
+
+    .title {
+      color: $main-color;
+
+    }
+  }
+}

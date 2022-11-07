@@ -1,0 +1,40 @@
+@import "/src/assets/style/config";
+
+.more {
+  height: 237px;
+  background-color: $main-color;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+
+  .main-elem {
+    margin-right: 30px;
+
+    .comp {
+      font-family: $second-font;
+      font-size: 30px;
+    }
+
+    .description {
+      font-family: $third-font;
+      font-size: 16px;
+      letter-spacing: 0.4;
+      line-height: 20px;
+    }
+
+    .soc-media {
+      margin-top: 20px;
+
+      .hover {
+        cursor: pointer;
+      }
+
+      .hover:hover {
+        color: $light-blue
+      }
+    }
+
+
+  }
+}
